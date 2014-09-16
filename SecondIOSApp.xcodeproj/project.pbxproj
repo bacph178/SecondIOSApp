@@ -22,6 +22,7 @@
 		84F33F8D19C7ECE000154683 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F33F6C19C7ECE000154683 /* UIKit.framework */; };
 		84F33F9519C7ECE000154683 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84F33F9319C7ECE000154683 /* InfoPlist.strings */; };
 		84F33F9719C7ECE000154683 /* SecondIOSAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F33F9619C7ECE000154683 /* SecondIOSAppTests.m */; };
+		84F33FA219C81CAC00154683 /* StringReverserActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F33FA119C81CAC00154683 /* StringReverserActivity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		84F33F9219C7ECE000154683 /* SecondIOSAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecondIOSAppTests-Info.plist"; sourceTree = "<group>"; };
 		84F33F9419C7ECE000154683 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84F33F9619C7ECE000154683 /* SecondIOSAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondIOSAppTests.m; sourceTree = "<group>"; };
+		84F33FA019C81CAC00154683 /* StringReverserActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringReverserActivity.h; sourceTree = "<group>"; };
+		84F33FA119C81CAC00154683 /* StringReverserActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringReverserActivity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				84F33F8119C7ECE000154683 /* ViewController.m */,
 				84F33F8319C7ECE000154683 /* Images.xcassets */,
 				84F33F6F19C7ECE000154683 /* Supporting Files */,
+				84F33FA019C81CAC00154683 /* StringReverserActivity.h */,
+				84F33FA119C81CAC00154683 /* StringReverserActivity.m */,
 			);
 			path = SecondIOSApp;
 			sourceTree = "<group>";
@@ -254,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84F33F8219C7ECE000154683 /* ViewController.m in Sources */,
+				84F33FA219C81CAC00154683 /* StringReverserActivity.m in Sources */,
 				84F33F7919C7ECE000154683 /* AppDelegate.m in Sources */,
 				84F33F7519C7ECE000154683 /* main.m in Sources */,
 			);
